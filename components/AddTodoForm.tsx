@@ -108,7 +108,6 @@ const AddTodoForm = ({ userId }: { userId: string | null }) => {
                       <Checkbox
                         checked={field.value}
                         onCheckedChange={field.onChange}
-                        {...field}
                       />
                     </FormControl>
                     <FormLabel>Completed</FormLabel>
